@@ -24,5 +24,5 @@ eg:
 ```bash
 # redis-cli
 127.0.0.1:6379> HSET tokens:all 4495250849804686 '{"device_id": "4495250849804686", "install_id": "3105468165931352", "mac_address": "9a:13:a5:12:48:3a", "openudid": "2ji2lnkfjkdj8n63", "udid": "751397510104898"}'
-SADD tokens:expire 4495250849804686
+127.0.0.1:6379> SADD tokens:expire 4495250849804686
 ```
