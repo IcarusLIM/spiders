@@ -90,7 +90,7 @@ class FontDecrypter:
 
 if __name__ == "__main__":
     # with open("maoyan.woff", "rb") as f0:
-    #     DoubanDecrypter.show_glyphs(f0)
+    #     FontDecrypter.show_glyphs(f0)
     with open("maoyan.woff", "rb") as f0, open("maoyan.json", "r") as f0_ucmap, open(
         "0e639b50c64de717b142088fe01561392276.woff", "rb"
     ) as f:
